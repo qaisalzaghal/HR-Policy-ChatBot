@@ -1,16 +1,17 @@
-# HR Policy ChatBot
+# 🧠 HR Policy ChatBot
 
-A conversational AI chatbot that answers questions about HR policies using LangChain, OpenAI, FAISS, and Streamlit.  
-It indexes HR policy HTML documents and enables semantic search and chat-based Q&A.
+A conversational AI chatbot that answers questions about HR policies using **LangChain**, **OpenAI**, **FAISS**, and **Streamlit**.  
+It indexes HR policy HTML documents and enables semantic search and chat-based Q&A through a RAG (Retrieval-Augmented Generation) pipeline.
 
 ---
 
-## Features
+## ✅ Features
 
-- **Conversational Q&A**: Ask HR policy questions in natural language.
-- **Semantic Search**: Retrieves relevant policy content using vector embeddings.
-- **Streamlit UI**: Simple web interface for chat.
-- **OpenAI Integration**: Uses GPT-4o for high-quality answers.
+- 💬 **Conversational Q&A**: Ask HR policy questions in natural language.
+- 🔍 **Semantic Search**: Retrieves relevant policy content using vector embeddings via FAISS.
+- 🌐 **Web UI**: Simple and clean interface built with Streamlit.
+- 🤖 **OpenAI Integration**: Uses GPT-4o (or GPT-3.5) for high-quality, context-aware answers.
+- 📂 **Flexible Document Input**: Supports loading HR documents from local HTML files or websites [hr-policies](https://www.hrhelpboard.com/hr-policies.html).
 
 ---
 
@@ -106,6 +107,6 @@ Open the provided local URL in your browser.
 
 ---
 
-## License
-
-This project is
+## 📌 Optional Next Steps
+- Integrate with a company’s SharePoint or internal document management system
+- Deploy the chatbot on the cloud (e.g., Streamlit Cloud, Azure App Service, or Docker)
