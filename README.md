@@ -77,6 +77,11 @@ OPENAI_API_KEY=sk-...
 ### 6. Index the HR Policy Documents
 
 Run the upload script to create the FAISS vector index:
+the below code 'upload_htmls()' is excecuted only once and then commented as the vector database is saved
+  experiments 
+    upload_htmls()
+  the below function is experimental to trigger a semantic search on the vector DB
+    faiss_query() 
 ```powershell
 python src/hrpc-FAISS-upload.py
 ```
