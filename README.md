@@ -9,6 +9,7 @@ It indexes HR policy HTML documents and enables semantic search and chat-based Q
 
 - 💬 **Conversational Q&A**: Ask HR policy questions in natural language.
 - 🔍 **Semantic Search**: Retrieves relevant policy content using vector embeddings via FAISS.
+- 📝 **Conversation Logging**: Automatically saves user questions and AI responses to a local file for later review or training data.
 - 🌐 **Web UI**: Simple and clean interface built with Streamlit.
 - 🤖 **OpenAI Integration**: Uses GPT-4o (or GPT-3.5) for high-quality, context-aware answers.
 - 📂 **Flexible Document Input**: Supports loading HR documents from local HTML files or websites [hr-policies](https://www.hrhelpboard.com/hr-policies.html).
