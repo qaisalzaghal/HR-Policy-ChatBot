@@ -1,0 +1,16 @@
+---------------- ignore this file -------------
+
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+.\.venv\Scripts\activate
+
+streamlit run src/hrpc-query.py
+
+pip install -r requirements.txt
+
+
+python src/hrpc-FAISS-upload.py
+
+

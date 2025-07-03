@@ -1,0 +1,8 @@
+streamlit==1.46.1
+langchain-community==0.3.26
+langchain-openai==0.3.25
+pypdf==5.6.1
+faiss-cpu==1.11.0
+python-libmagic==0.4.0
+unstructured==0.18.1
+
